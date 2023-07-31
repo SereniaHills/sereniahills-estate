@@ -1,0 +1,64 @@
+.menu-sub {
+    height: 205px;
+    padding: 0 !important;
+}
+
+.menu-quantum {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.menu-top {
+    display: grid;
+}
+
+.wrapper {
+    padding: 0 13.17vw;
+}
+
+.menu-quantum .logo {
+    font-size: 2em;
+    color: #FFF;
+    padding: 0.75vw 0;
+    display: block;
+    letter-spacing: 0.2em;
+}
+
+.menu-quantum ul {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+}
+
+.menu-quantum .menu-top li:first-child {
+    padding-left: 0;
+}
+
+.menu-quantum .menu-top li {
+    padding-left: 3.2vw;
+}
+
+.menu-quantum li {
+    list-style: none;
+    padding: 1vw 0;
+}
+
+.menu-quantum li a {
+    padding: 8px 0.85vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: .07rem;
+    color: #FFF;
+}
+
+.menu-bottom .pull-right {
+    background-color: #63666a;
+}
+
+.menu-bottom .wrapper {
+    padding-left: 1vw;
+}

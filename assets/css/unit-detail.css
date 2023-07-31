@@ -1,0 +1,64 @@
+.address {
+    margin-bottom: 4vw;
+}
+
+.address .title-unit {
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: .03rem;
+    color: #867b6a;
+    display: block;
+    border-bottom: 1.5px dotted rgba(98, 98, 98, 0.65);
+    width: 100%;
+    padding-bottom: 1vw;
+    margin-bottom: 0.8vw;
+}
+
+.address p {
+    font-size: 21px;
+    letter-spacing: .03rem;
+    color: #7c786d;
+    font-weight: unset;
+}
+
+.description-unit {
+    padding-left: 3vw;
+}
+
+.description-unit span {
+    font-size: 21px;
+    letter-spacing: .035rem;
+    color: #8d8777;
+    line-height: 160%;
+}
+
+.description-unit p {
+    font-size: 18px;
+    letter-spacing: .035rem;
+    color: #5e5f61;
+    font-weight: unset;
+}
+
+.section-3 ul {
+    padding-left: 0;
+    list-style: none;
+    column-count: 2;
+}
+
+.section-3 ul li {
+    margin-bottom: 10px;
+}
+
+.img-icon {
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.section-3 ul li span {
+    font-size: 1rem;
+    color: #867b6a;
+    letter-spacing: .03rem;
+    padding-left: 0.8vw;
+    position: relative;
+}

@@ -1,0 +1,89 @@
+.tree {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.tree li {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption-journal {
+    top: 35%;
+}
+
+.img-slider-journal {
+    bottom: 0;
+    height: 380px;
+}
+
+.title-slider {
+    font-size: auto;
+}
+
+@media (min-width: 1025px) {
+    /*.carousel-bannerjournal {
+			height: 60vh;
+		}*/
+
+    .carousel-caption-journal {
+        top: 50%;
+    }
+
+    .img-slider-journal {
+        bottom: 30%;
+        height: 500px;
+    }
+
+    .title-slider {
+        font-size: 2.8rem;
+    }
+}
+
+.border-blue {
+    border-left: 1px solid rgba(54, 80, 114, 0.75);
+    border-right: 1px solid rgba(54, 80, 114, 0.75);
+    border-bottom: 1px solid rgba(54, 80, 114, 0.75);
+}
+
+.second-button {
+    padding: 8px 20px;
+    border: 1px solid #867b6a;
+    color: #867b6a;
+    font-weight: 600;
+}
+
+.main-button {
+    padding: 8px 20px;
+    background-color: #867b6a;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.main-button:hover {
+    background-color: #867b6a;
+    color: #ffffff;
+}
+
+.modal-image {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.modal-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .modal-image {
+        max-height: 100%;
+    }
+}

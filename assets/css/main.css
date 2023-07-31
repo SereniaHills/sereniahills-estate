@@ -1,0 +1,1590 @@
+.font-normal {
+    font-weight: normal !important;
+}
+
+.f-30,p {
+    font-size: 18px;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.text-dark-gray {
+    color: #867b6a;
+}
+
+.bg-dark-gray {
+    background-color: #867b6a;
+}
+
+#hero,#hero10,#hero11,#hero12,#hero6,#hero8,#hero9 {
+    height: 61vh;
+}
+
+#btnSend,.title-book-viewing,a.aLink-menu h6 {
+    text-transform: uppercase;
+}
+
+.btn-slider,.content-isi,.virtual-unit {
+    display: flex;
+}
+
+.tabs-container .tabs li a,a,a:hover {
+    text-decoration: none;
+}
+
+.nav-link,.nav-link span,body,h1,h2,h3,h4,h5 {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    color: #867b6a;
+}
+
+section {
+    padding: 60px 0 0;
+    overflow: hidden;
+}
+
+img {
+    object-fit: cover!important;
+}
+
+a:hover {
+    color: #81745a;
+}
+
+.btn:focus {
+    box-shadow: none!important;
+}
+/*#preloader:before{content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #81745a;border-top-color:#fff;border-bottom-color:#fff;border-radius:50%;width:60px;height:60px;-webkit-animation:1s linear infinite animate-preloader;animation:1s linear infinite animate-preloader}*/ 
+p {
+    font-weight: 400;
+}
+
+.nopadding {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.f-italic {
+    font-style: italic!important;
+}
+
+.b-white {
+    background: #fff!important;
+    color: #867b6a!important;
+}
+
+.b-white:hover {
+    background: #867b6a!important;
+    color: #fff!important;
+}
+
+#footer,.b-bluedark,.b-bluedark:hover,.carousel-text-leasing-office.b-bluedark {
+    background: #bcbcb6;
+}
+
+#hero7,.img-carousell {
+    background-size: cover;
+}
+
+.c-bluedark {
+    color: #81745a;
+}
+
+.f-30 {
+    font-feature-settings: normal;
+    letter-spacing: .1px;
+    line-break: auto;
+    line-height: 1.8em;
+    font-weight: 700;
+}
+
+.f-36,.f-39,.f-60,.f-80 {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn-get,.p-content {
+    width: 50%;
+}
+
+.m-bottom-0 {
+    margin-bottom: 0!important;
+}
+
+.f-80 {
+    font-size: 80px;
+}
+
+.f-60 {
+    font-size: 60px;
+}
+
+.f-39 {
+    font-size: 39px;
+}
+
+.f-36 {
+    font-size: 36px;
+}
+
+.f-15,.f-20 {
+    font-weight: 400;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.carousel-text-leasing-office h1,.carousel-text-leasing-office h3,.f-25 {
+    font-size: 25px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.mtop-content.content-button,.text-right {
+    text-align: right;
+}
+
+.l-spacing-20 {
+    letter-spacing: 20px;
+}
+
+.l-spacing-1 {
+    letter-spacing: 1px;
+}
+
+.h-104vh {
+    height: 104vh;
+}
+
+.p-right {
+    padding-right: 171px;
+}
+
+.pd-bottom-0 {
+    padding-bottom: 0!important;
+}
+
+.pd-top-0 {
+    padding-top: 0!important;
+}
+
+.c-white,.carousel-caption a,.facilities-section,.mobile-nav-toggle {
+    color: #fff;
+}
+
+.section-page {
+    padding: 15px 0;
+}
+
+#header {
+    background: #81745a47;
+    opacity: 1;
+    padding: 0;
+    z-index: 9999;
+}
+
+#header .logo img {
+    max-height: 75px;
+    padding: 10px;
+}
+
+.container-menu,.container-page {
+    max-width: 1106px;
+}
+
+.navbar a {
+    font-style: normal;
+}
+
+.navbar a,a.nav-link {
+    color: #867b6a;
+    background: 0 0;
+    opacity: 1;
+    letter-spacing: 2px;
+    padding: .5rem 1rem;
+}
+
+.navbar a,.navbar a:focus {
+    padding: .5rem 1rem;
+    font-family: "Titillium Web";
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.navbar .active,.navbar .active:focus,.navbar a:hover,.navbar li:hover>a {
+    color: #385072;
+    background: #fff;
+}
+
+@media (min-width:992px) {
+    #aboutSQ {
+        min-width: 150px;
+    };
+}
+
+.mobile-menu-sublink {
+    width: 10%;
+}
+
+.about-sublink,.btn-pricelist button,.img-residences {
+    width: 100%;
+}
+
+a.aLink-menu {
+    color: #fff;
+    background: 0 0;
+    opacity: 1;
+    letter-spacing: 2px;
+    width: 150px;
+}
+
+a.aLink-menu h6 {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.navbar .dropdown ul {
+    background: #81745aa8;
+    width: 630px;
+}
+
+.dropdown-large {
+    padding: 1rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 66%;
+    left: 1px;
+    margin-top: 11px;
+    background: #81745aa8;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.right-announcent {
+    position: absolute;
+    right: 0;
+    z-index: 996;
+    width: 60px;
+    height: auto;
+    transition: .4s;
+    color: #fff;
+}
+
+.carousel-control-next-sqres,.right-announcent.opened {
+    right: 0;
+}
+
+.icon-links a {
+    font-size: 30px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    display: inline-block;
+    color: #fff;
+    line-height: 1.99;
+    padding: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: .3s;
+    text-align: center;
+}
+
+.titlecontent,.titlecontent span {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-size: 32px;
+}
+
+.titlecontent,p.p-title {
+    transition-property: color,background,text-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    font-feature-settings: normal;
+    letter-spacing: .011em;
+}
+
+.icon-links a:hover {
+    color: #81745a;
+    background: #fff;
+    border: 3px solid #81745a;
+    border-radius: 0;
+}
+
+.navbar a:focus,a.aLink-menu:hover,a.nav-link:hover {
+    color: #867b6a;
+    background: #fff;
+    border: 1px solid #867b6a;
+    width: auto;
+}
+
+.nav-tabs .nav-link.active {
+    color: #867b6a;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid #333;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+@media (min-width:1441px) {
+    #submenu_ {
+        width: 100%;
+        min-width: 361px;
+    };
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.carousel-item,.carousel-item-aboutsq,.img-about-slider-dome,.img-about-slider-journal,.multicarousel {
+    height: auto;
+}
+
+.img-carousell {
+    height: 108vh;
+}
+
+.img-slider {
+    position: relative;
+    bottom: 0;
+    height: 548px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption-home {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    top: 88%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.carousel-content {
+    width: 100%;
+    max-width: 995px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 8px;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.btn-slider {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-left: 65%;
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+#hero {
+    background: url("./wp-content/themes/sereniahills-estate/assets/images/HOME-BANNER1.jpg") center/cover no-repeat;
+}
+
+#hero6 {
+    background: url("./wp-content/themes/sereniahills-estate/assets/unit_types/STUDIO-SQ-Res-Studio-scaled.jpg") 0 -50vh no-repeat;
+    background-size: cover!important;
+}
+
+#hero7 {
+    height: 80vh;
+    position: relative;
+    background-color: #eee;
+}
+
+#hero8 {
+    background: url("./wp-content/themes/sereniahills-estate/assets/studio_unit/STUDIO-UNIT-VIRTUAL_1.jpg") 0 -50vh no-repeat;
+    background-size: cover!important;
+}
+
+#hero9 {
+    background: url("./wp-content/themes/sereniahills-estate/assets/unit_types/1-BEDROOM-A.jpg") 0 -50vh no-repeat;
+    background-size: cover!important;
+}
+
+#hero10 {
+    background: url("./wp-content/themes/sereniahills-estate/assets//unit_types/1-BEDROOM-B.jpg") 0 -50vh no-repeat;
+    background-size: cover!important;
+}
+
+#hero11 {
+    background: url("./wp-content/themes/sereniahills-estate/assets//unit_types/1-BR%2bSTUDY.jpg") 0 -50vh/cover no-repeat;
+}
+
+#hero12 {
+    background: url("./wp-content/themes/sereniahills-estate/assets//unit_types/2-BR-CORNER.jpg") 0 -50vh no-repeat;
+    background-size: cover!important;
+}
+
+.unit_show {
+    padding-top: 100px;
+    color: #81745a;
+}
+
+.unitshow {
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-bottom: 100px;
+}
+
+.container-first-section,.tabs-container {
+    padding-left: 0;
+}
+
+.titlecontent {
+    color: #867b6a;
+    font-weight: 700;
+}
+
+.learn-more,.m-titleheader,.read-more {
+    letter-spacing: 3px;
+}
+
+.titlecontent span {
+    font-weight: 400;
+}
+
+.learn-more,.m-titleheader,p.p-title {
+    font-size: 18px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text-gold {
+    color: #867b6a;
+}
+
+.m-titleheader {
+    margin-bottom: 15px;
+}
+
+.mtop-content {
+    margin-top: 20px;
+}
+
+.iframeourlaction {
+    width: 100%;
+    height: 785px;
+}
+
+.learn-more {
+    border-radius: 0!important;
+    padding: 10px 25px;
+    border: 1px solid #867b6a;
+    background-color: #867b6a;
+    color: #fff;
+}
+
+.read-more {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 0!important;
+    padding: 5px 10px;
+    border: 1px solid #81745a;
+    font-size: 20px;
+}
+
+.learn-more:hover {
+    color: #8e9b55;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+#btnSend:hover,.read-more:hover {
+    color: #81745a;
+    background: #fff;
+    border: 1px solid #81745a;
+}
+
+.title-book-viewing {
+    margin-bottom: 15px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+}
+
+.address-down-content,.content-isi {
+    font-size: 15px;
+}
+
+#date,#email,#message,#name,#phone,#time {
+    font-style: italic;
+}
+
+#btnSend,#footer .footer-top .footer-contact p,#footer .footer-top .footer-links ul a,#footer .footer-top .footer-links ul a:hover,#footer .footer-top .footer-links ul i,#footer .footer-top h4,#footer .social-links a,.carousel-text,.carousel-text-pricelist {
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+#btnSend {
+    padding: 8px 20px;
+    border: 1px solid #81745a;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#monthNow,#nextMonth,#prevMonth {
+    color: #232323;
+    font-family: verdana;
+    text-transform: uppercase;
+}
+
+#footer {
+    color: #414245;
+    font-size: 18px;
+}
+
+#footer .footer-top,.back-to-top:hover {
+    background: #3c4749;
+    color: #414245;
+}
+
+#footer .footer-top .footer-links ul a {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #414245;
+}
+
+#footer .footer-newsletter form {
+    margin-top: 8px;
+    background: 0 0;
+    padding: 0 25px 0 0;
+    position: relative;
+    border-radius: 0;
+    text-align: left;
+    border: none;
+}
+
+#footer .footer-newsletter form input[type=email] {
+    padding: 8px;
+    width: calc(100% - 100px);
+    font-family: "Titillium Web";
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+    background: #fff;
+    color: #867b6a;
+}
+
+#footer .footer-newsletter form input[type=submit] {
+    font-family: "Titillium Web";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: #867b6a;
+    font-size: 16px;
+    padding: 0 20px 2px;
+    color: #fff;
+    transition: .3s;
+    border-radius: 0;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    font-weight: 700;
+}
+
+#footer .social-links a,.back-to-top {
+    background: #867b6a;
+    border: 2px solid #fff;
+}
+
+#footer .social-links a {
+    font-weight: 700;
+}
+
+#footer .social-links a:hover {
+    background: #fff;
+    color: #867b6a;
+    text-decoration: none;
+}
+
+#footer .footer-top .footer-contact p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#footer .footer-top h4 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#footer .footer-top .footer-links ul i {
+    color: #414245;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: underline;
+    color: #414245;
+    font-weight: 700;
+}
+
+#idx-calendar #dayNames>ul,#idx-calendar div>ul,#monthNow,#nextMonth,#prevMonth,.announcent-toggle,.tabs-container .tabs li .active,.tabs-container .tabs ul {
+    background-color: #fff;
+}
+
+.announcent {
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+    z-index: 999;
+}
+
+.announcent-toggle {
+    display: flex;
+    padding: 10px 6px;
+    font-weight: 500;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.35) 0 5px 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+.content-isi {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.photo {
+    padding-left: 50px;
+    width: 500px;
+    padding-top: 30px;
+}
+
+.title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.carousel-text {
+    background: #333333ad;
+    position: absolute;
+    left: 6%;
+    width: 43%;
+    top: 22%;
+    bottom: 15%;
+    right: 0;
+    color: #fff;
+    padding: 30px 55px;
+}
+
+.carousel-text h1 {
+    font-size: 20px;
+    margin: 10px 0 60px;
+    font-weight: 700;
+}
+
+.carousel-text h3 {
+    font-weight: 400;
+}
+
+.carousel-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img-about-slider,.img-journal-slider {
+    position: relative;
+    bottom: 80%;
+}
+
+.tabs-container .tabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tabs-container .tabs li {
+    float: left;
+}
+
+.tabs-container .tabs li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 36px;
+}
+
+.tabs-container .tabs li a:hover {
+    background-color: #d3d3d3;
+    border-radius: 0;
+}
+
+.img-about-slider-dome {
+    position: relative;
+    bottom: 30%;
+}
+
+.carousel-item-journal {
+    height: 61vh;
+}
+
+.carousel-text-pricelist {
+    height: auto;
+    color: #333;
+    width: 100%;
+    max-width: 1102px;
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+#calendar-control,.img-requestpricelist-slider {
+    position: relative;
+}
+
+.content-pricelist {
+    background: #fff;
+    position: relative;
+}
+
+.floor-plan-about,.journal-menu,.tabs-container .tab.active,.tabs-content {
+    background-color: #eee;
+}
+
+.title-request-pricelist {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+#unitTypes h1,.content-judul {
+    font-weight: 700;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+#unitTypes {
+    padding: 60px 0;
+}
+
+#unitTypes h1 {
+    font-size: 22px;
+}
+
+.content-button {
+    position: revert;
+    bottom: 35px;
+    right: 0;
+}
+
+.content-judul {
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.paragraf {
+    font-size: 22px;
+    padding-left: 0;
+}
+
+.p-relative {
+    position: relative;
+    padding-left: 100px;
+}
+
+.carousel-text-leasing-office.b-gray {
+    background: #eee;
+}
+
+.img-leasing-office {
+    position: relative;
+    bottom: 0;
+}
+
+.img-about-slider-aboutsq {
+    position: auto;
+}
+
+.img-content-aboutsq {
+    width: 40%;
+}
+
+#prevMonth,.carousel-control-prev-sqres {
+    left: 0;
+}
+
+.carousel-text-leasing-office {
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-family: "Titillium Web";
+    font-style: normal;
+    padding: 35px 0;
+}
+
+@media screen and (min-width:900px) {
+    .carousel-item-requestpricelist {
+        max-height: 61vh;
+    }
+
+    .content-pricelist {
+        border: 1px solid;
+    }
+
+    .carousel-text-pricelist {
+        top: 75%;
+    };
+}
+
+@media screen and (min-width:768px) {
+    .btn-pricelist button {
+        width: 50%;
+    }
+
+    .right-announcent {
+        right: -210%;
+    };
+}
+
+@media screen and (max-width:1200px) {
+    .carousel-caption-home {
+        top: 76%;
+    }
+
+    .p-right {
+        padding-right: 49px;
+    }
+
+    .container,.container-lg,.container-md,.container-sm {
+        max-width: 1094px;
+    };
+}
+
+.img-sqres-slider {
+    height: auto;
+    object-fit: cover;
+}
+
+.tabs-content {
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.tabs-container .tab {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.menu {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.floor-plan {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.content-button {
+    padding-top: 30px;
+    padding-left: 0;
+}
+
+.img-dummy {
+    padding-top: 20px;
+    height: 300px;
+    width: 600px;
+}
+
+.specifications .summary {
+    border-top: 1px solid #967c60;
+    margin-bottom: 30px;
+}
+
+.specifications .summary>span {
+    display: inline-block;
+    border-right: 1px solid #967c60;
+    padding: 10px 20px 0 0;
+    margin-right: 20px;
+    color: #967c60;
+}
+
+.specifications-list {
+    font-size: 13px;
+}
+
+.sup {
+    top: -.5em;
+}
+
+.item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    color: #967c60;
+}
+
+.content-text,.item-news h4 {
+    font-weight: 400;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.specifications-list p {
+    letter-spacing: 1px;
+    color: #395172;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.gallery {
+    background-color: #81745a;
+    padding-bottom: 30px;
+}
+
+.card-gallery {
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0;
+}
+
+.card.card-gallery .card-body h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.card.card-gallery .card-body p {
+    font-size: 15px;
+    font-weight: 44;
+    font-family: "Titillium Web";
+    font-style: normal;
+}
+
+.a-section-journal:hover,.item-news h3,.item-news h4,.menu-sqres,.virtual-link:hover {
+    color: #81745a;
+}
+
+/* .nav-tabs .nav-link.active {
+    color: #3c4749;
+} */
+
+/* .nav-tabs .nav-link.active { */
+    /* border-color: #eee;
+    background-color: #eee; */
+    /* border-color: #333;
+    background-color: #fff; */
+/* } */
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #333;
+}
+
+.carousel-caption-sq-dome {
+    width: 100%;
+    height: 100%;
+    left: 0!important;
+}
+
+.carousel-item .active {
+    background-color: #f1ece7;
+}
+
+.top {
+    padding-top: 50px;
+}
+
+.sidebar {
+    padding-top: 900px;
+}
+
+.item-img {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.content-text {
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.content-image {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 700px;
+}
+
+#idx-calendar {
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+    width: 100%;
+}
+
+#idx-calendar div>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#idx-calendar ul li {
+    color: #232323;
+    float: left;
+    font-family: Tahoma;
+    font-weight: inherit;
+}
+
+#dayNames ul li {
+    font-weight: 700;
+    margin: 2% 0;
+    padding: 3% 0;
+    width: 14.2857%;
+}
+
+#daysNum ul li:hover {
+    background-color: #333;
+    opacity: .9;
+}
+
+#daysNum ul li {
+    padding: 2.5% 0;
+    width: 14.2857%;
+}
+
+#dayNames,#daysNum {
+    clear: both;
+    width: 100%;
+}
+
+#dayNames:after,#daysNum:after,#idx-calendar div>ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#idx-calendar div>ul li:first-child {
+    color: #f05558;
+    font-weight: 700;
+}
+
+#idx-calendar li.dayNow {
+    color: #0084b4!important;
+    font-weight: 700;
+    background-color: #232323;
+    position: relative;
+    z-index: 2;
+}
+
+.monthNow {
+    color: #0084b4;
+    font-family: arial;
+    font-size: 40px;
+    text-align: left;
+}
+
+#monthNow {
+    font-weight: 700;
+    padding: 20px;
+}
+
+#nextMonth,#prevMonth {
+    transition: .5s;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+
+#nextMonth:before,#prevMonth:before {
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .5s;
+    border-right: 1px solid #232323;
+    border-top: 1px solid #232323;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 20px;
+    position: relative;
+    top: 18px;
+    transform: rotate(45deg);
+    width: 20px;
+}
+
+#prevMonth:before {
+    transform: rotate(-135deg);
+}
+
+#nextMonth:hover,#prevMonth:hover {
+    background-color: transparent;
+}
+
+#nextMonth:hover:before,#prevMonth:hover:before {
+    border-radius: 0;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+.tittle-facilities {
+    text-transform: uppercase;
+}
+
+.img-slider-floor {
+    position: relative;
+    size: 52vh!important;
+    bottom: 3%;
+    top: 2%;
+}
+
+.ground-floor {
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+
+.size {
+    width: 83%!important;
+    padding-left: 20%;
+}
+
+.dome {
+    object-fit: cover;
+}
+
+.item-news .flex-grow-1 {
+    flex-grow: 1;
+}
+
+.box-left.menu {
+    margin: 0 -20px;
+    padding: 0 20px;
+}
+
+.item-news h4 {
+    font-size: 14px;
+}
+
+.item-news h3 {
+    font-weight: 700;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-size: 18px;
+}
+
+#unitTypes a,#unitTypes p,.item-news p,.journal-menu .tree,.journal-menu p,.label-email {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.label-email {
+    padding: 0;
+}
+
+.item-news p,.label-email {
+    font-size: 16px;
+}
+
+.section-journal {
+    color: #fff;
+    background-color: #81745a;
+    padding: 10px;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-size: 18px;
+}
+
+.journal-menu .tree,.journal-menu p {
+    background-color: #eee;
+    font-size: 15px;
+}
+
+.btn-subscribe-journal {
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.row-unittypes {
+    margin-bottom: 2.1rem;
+}
+
+.content-unittypes {
+    padding-top: 0;
+}
+
+.content-field-unittypes {
+    font-size: 18px;
+    font-weight: 100!important;
+    color: #6d6e71;
+    margin: 20px auto;
+}
+
+#unitTypes a,#unitTypes p {
+    font-size: 18px;
+}
+
+#unitTypes a {
+    font-size: 15px;
+}
+
+@media screen and (max-width:1867px) {
+    .carousel-developer,.carousel-item {
+        height: auto;
+    }
+
+    .img-slider {
+        bottom: 30%;
+    };
+}
+
+@media screen and (max-width:1097px) {
+    .carousel-caption-home {
+        top: 76%;
+    }
+
+    .p-right {
+        padding-right: 49px;
+    }
+
+    .carousel-content {
+        width: 100%;
+        max-width: 525px;
+    };
+}
+
+@media screen and (max-width:990px) {
+    .mobile-menu-sublink,.navbar a:focus,a.aLink-menu:hover,a.nav-link:hover {
+        width: 100%;
+    }
+
+    .navbar-mobile .dropdown>.dropdown-active {
+        display: contents;
+    }
+
+    .mobile-menu-sublink {
+        width: 100%!important;
+    }
+
+    .btn-slider {
+        margin-left: 55%;
+    }
+
+    .learn-more {
+        padding: 10px;
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption-home {
+        top: 80%;
+    }
+
+    .img-slider {
+        position: relative;
+    }
+
+    .navbar-mobile ul {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 66px 0;
+        border-radius: 0;
+        background-color: #81745a;
+    }
+
+    .h-104vh {
+        height: 56vh;
+    }
+
+    #about,#hero2,#hero3,#hero4 {
+        padding: 24px 0;
+    }
+
+    h1.titlecontent.f-60.l-spacing-1,h1.titlecontent.f-80.l-spacing-1 {
+        font-size: 35px;
+    }
+
+    h5.title-book-viewing.text-gold.f-36,p.f-30 {
+        font-size: 20px;
+    }
+
+    .f-25 {
+        font-size: 17px;
+    }
+
+    .f-36 {
+        font-size: 27px;
+    }
+
+    .carousel-text {
+        background: #333333ad;
+        position: absolute;
+        left: 6%;
+        width: 43%;
+        top: 22%;
+        bottom: 15%;
+        right: 0;
+        color: #fff;
+        font-family: "Titillium Web";
+        font-style: normal;
+        padding: 10px;
+    }
+
+    .carousel-text h1 {
+        font-size: 16px;
+        margin: 0 0 7px;
+        font-weight: 700;
+    }
+
+    .carousel-text h3 {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .content-image {
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+
+    .list-news {
+        margin: 0;
+    }
+
+    .side-menu {
+        padding-top: 0;
+    };
+}
+
+@media screen and (max-width:721px) {
+    .carousel-caption-home {
+        top: 80%;
+    };
+}
+
+@media screen and (max-width:641px) {
+    .carousel-caption-home {
+        top: 71%;
+    }
+
+    .p-right {
+        padding-right: 0;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    #about,#hero2,#hero3,#hero4 {
+        padding: 0;
+    }
+
+    #hero10,#hero11,#hero9 {
+        background-size: contain;
+        height: 31vh;
+    }
+
+    .titlecontent,.titlecontent span,h1.titlecontent.f-60.l-spacing-1,h1.titlecontent.f-80.l-spacing-1 {
+        font-size: 30px;
+    }
+
+    h5.title-book-viewing.text-gold.f-36 {
+        font-size: 20px;
+    }
+
+    .carousel-control-next-icon,.carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .carousel-content {
+        max-width: 320px;
+    }
+
+    .carousel-content h1 {
+        font-size: 34px;
+    }
+
+    .carousel-content p {
+        font-size: 17px;
+    }
+
+    .carousel-content a {
+        font-size: 10px;
+    }
+
+    .learn-more {
+        font-size: 12px!important;
+        padding: 8px;
+    }
+
+    .btn-slider {
+        margin-left: 50%;
+    }
+
+    .title-book-viewing {
+        margin-bottom: 0;
+        font-size: 15px!important;
+    }
+
+    .f-25,.f-36,p.f-30 {
+        font-size: 18px;
+    }
+
+    .right-announcent {
+        width: 50px;
+    }
+
+    .icon-links a {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-unittype {
+        margin-top: 0;
+        height: 420px!important;
+    }
+
+    .carousel-text {
+        background: #333333ad;
+        position: absolute;
+        left: 6%;
+        width: 89%;
+        top: 29%;
+        bottom: 5%;
+        right: 0;
+        color: #fff;
+        font-family: "Titillium Web";
+        font-style: normal;
+        padding: 10px;
+    }
+
+    .carousel-text p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .btn-get {
+        width: 100%!important;
+    };
+}
+
+@media screen and (max-width:321px) {
+    .iframeourlaction {
+        height: auto;
+    }
+
+    .titlecontent,.titlecontent span {
+        font-size: 35px;
+    }
+
+    .f-25 {
+        font-size: 12px;
+    };
+}
+
+@media all and (min-width:992px) {
+    .dropdown-large {
+        min-width: 641px;
+    };
+}
