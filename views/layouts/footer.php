@@ -117,9 +117,7 @@
 
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/style.js"></script>
 
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk3piiPT9-8oHwggreQk3mFYfAz8VPI5U&amp;callback=initMap">
-</script>
+<!--  -->
 
 </body>
 
