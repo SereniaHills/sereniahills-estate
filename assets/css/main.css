@@ -900,18 +900,34 @@ a.aLink-menu h6 {
     display: none;
 }
 
-@media screen and (max-width:768px) {
+#middle-desktop {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
 
     #map-desktop {
         display: none;
     }
 
-    #map-mobile {
+    #middle-desktop {
         display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #map-desktop {
+        display: none;
+    }
+    
+    #middle-desktop {
+        display: none;
     }
 
-    #map-mobile img {
-        height:500px;
+    #map-mobile {
+        display: block;
     }
 }
 
@@ -931,13 +947,6 @@ a.aLink-menu h6 {
 
 @media screen and (min-width:768px) {
 
-    #map-desktop {
-        display: none;
-    }
-
-    #map-mobile {
-        display: block;
-    }
 
     .btn-pricelist button {
         width: 50%;

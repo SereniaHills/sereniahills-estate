@@ -173,9 +173,13 @@ if (isset($post_data)) {
                     echo do_shortcode('[smartslider3 slider="7"]');
                     ?>
                 </div>
+                <div id="middle-desktop" class="col-lg-12">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile-SE-Map-Web-3-3-1.png"
+                        class="img img-fluid" alt="Map Serenia Estate Middle">
+                </div>
                 <div id="map-mobile" class="col-lg-12">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile-SE-Map-Web-3-3-1.png"
-                        class="img img-fluid" alt="Map Serenia Estate Mobile">
+                        class="img img-fluid w-100" alt="Map Serenia Estate Mobile">
                 </div>
             </div>
         </div>
