@@ -928,6 +928,11 @@ a.aLink-menu h6 {
 
     #map-mobile {
         display: block;
+        height: 500px;
+    }
+
+    #map-mobile img {
+        height: 500px;
     }
 }
 
