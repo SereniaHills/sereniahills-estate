@@ -1,3 +1,20 @@
+/* 
+** Accordions Mobile 
+*/
+.accordion-button {
+    background-color: #F5F5F5;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #867b6a;
+    background-color: #FFF;
+    box-shadow: unset;
+    border: 1px solid #dee2e6 !important;
+}
+
+/* 
+** End 
+*/
 .bg-map {
     background-color: #BCBCB3FF;
 }
