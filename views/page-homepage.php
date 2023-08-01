@@ -14,81 +14,13 @@ if (isset($post_data)) {
         $content_homepage = '';
     }
 }
+
 ?>
 
 <main id="main">
-    <!-- ======= First Section ======= -->
-    <section class="section-page mt-3 mb-3">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-lg-12 content">
-                    <h1 class="titlecontent f-50 l-spacing-1">
-                        Elegantly designed amidst<br>
-                        natural serenity
-                    </h1>
-                    <div class="container container-first-section">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="p-title">
-                                    <p class="f-30">
-                                        With 24-hour security, smart homes in various sizes, a clubhouse, and a
-                                        pool, residents can enjoy a safe and luxurious lifestyle. Serenia Hills’ success
-                                        in
-                                        Lebak Bulus, recognized with the FIABCI Prix d’excellence gold award, marks a
-                                        significant
-                                        milestone for Intiland.
-                                    </p>
-                                    <p class="f-30">
-                                        The new Serenia Estate is perfectly situated,
-                                        just minutes away from Pondok Indah’s
-                                        vibrant lifestyle district and the prestigious
-                                        Pondok Indah Golf Course.
-                                    </p>
 
-                                </div>
-                            </div>
-                            <div class="col-lg-4"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About Section -->
+    <?= do_shortcode($post_data->post_content); ?>
 
-    <section class="position-relative p-0">
-        <?php
-        echo do_shortcode('[smartslider3 slider="3"]');
-        ?>
-    </section>
-    <section class="section-page mt-3 mb-3">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-lg-12 content">
-                    <h1 class="titlecontent f-80 l-spacing-1">
-                        EMBRACE THE ULTIMATE BLEND OF LIFESTYLE AND INVESTMENT<br>
-                        IN SOUTH JAKARTA’S FINEST RESIDENTIAL OFFERING.
-                    </h1>
-                    <div class="container container-first-section">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="p-title">
-                                    <p class="f-30">
-                                        A step above the rest, fortunate residents can nestle in with unrivalled
-                                        privacy
-                                        and security, indulgent amenities, anticipatory service, and state of the
-                                        art
-                                        technology. An impressive portfolio of exclusive amenities exceeding your
-                                        entertainment, relaxation and business needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="section-page position-relative">
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -227,155 +159,7 @@ if (isset($post_data)) {
             </div>
         </div>
     </section>
-    <!-- <style type="text/css">
-    .features-box-image.icon {
-        color: #8e9b55;
-        /*cursor: pointer;*/
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px transparent;
-        outline: none;
-    }
 
-    .bx-store-alt,
-    .bx-swim,
-    .bx-walk,
-    .bx-news,
-    .bx-buildings,
-    .bx-dumbbell,
-    .bx-spa,
-    .bx-dish {
-        font-size: 50px;
-    }
-
-    .item {
-        font-weight: 600;
-        letter-spacing: 0;
-        text-transform: uppercase;
-        display: block;
-        margin-bottom: 5px;
-        color: #8e9b55;
-    }
-
-    .title {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        font-size: 18px;
-        text-transform: uppercase;
-    }
-
-    .description {
-        text-transform: initial;
-    }
-    </style> -->
-    <!-- <section class="pd-top-0 section-page d-none" style="margin: 35px 0;">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-lg-12 content">
-                    <h1 class="titlecontent f-80 l-spacing-1 text-center" style="margin-bottom: 23px;">Facilities
-                        and
-                        Amenities</h1>
-                    <div class="container container-first-section">
-                        <div class="row">
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-news'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Entertainment area</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-walk'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Waterfront Walkway & Jogging Track</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-buildings'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Sky Bridge & Sky Garden</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-store-alt'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Business Centre</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-swim'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Indoor & Outdoor Pool</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-spa'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Spa, Sauna & Jacuzzi</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-dish'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Private Dining area</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                                <div class="item-inner">
-                                    <div class="features-box-image icon">
-                                        <i class='bx bx-dumbbell'></i>
-                                    </div>
-                                    <div class="features-box-content text-center">
-                                        <h3 class="title">Fitness Centre</h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-gold m-titleheader f-36" style="text-transform: uppercase;">Location</div>
@@ -452,12 +236,7 @@ if (isset($post_data)) {
             </div>
         </div>
     </section>
-    <!-- <section class="section-page pb-0 position-relative">
-        <?php
-        // echo do_shortcode('[smartslider3 slider="5"]');
-        ?>
-    </section> -->
-    <!--  -->
+
     <section class="py-2">
         <div class="container" data-aos="fade-up">
             <div class="row">
