@@ -316,7 +316,7 @@ if (isset($post_data)) {
 
                 <?php 
                         foreach ($latest_types as $key => $value) {
-                            echo '<div class="col-md-4">
+                            echo '<div class="col-md-4 mb-4">
                                     <div class="card">
                                         <a href="'.get_site_url().'/'.$value->post_name.'">
                                             <img src="'.get_the_post_thumbnail_url($value->ID).'"
