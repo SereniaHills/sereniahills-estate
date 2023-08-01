@@ -14,7 +14,7 @@
                             <div class="pt-2 float-end pull-right desktop">
                                 <ul>
                                     <li><a href="#section-2">Overview</a></li>
-                                    <li><a href="#section-3">Unit Detail</a></li>
+                                    <li><a href="#section-3">Floor Plan</a></li>
                                     <li><a href="#section-4">Lifestyle</a></li>
                                     <li><a href="#section-5">Location</a></li>
                                     <li><a href="#section-6">Journal</a></li>
@@ -30,7 +30,7 @@
                                     <li><a href="<?= get_site_url()?>/wp-content/uploads/SE-Brochure-Digital-N-rev.pdf"
                                             class="menu-download-brochure" download>Download
                                             Brochure</a></li>
-                                    <li><a href="tel:085781134555">Call us</a></li>
+                                    <li><a href="tel:085781134555">Call Us</a></li>
                                     <li>
                                         <a class="menu-request-callback" data-bs-toggle="modal"
                                             data-bs-target="#myModal-requestCallback">
@@ -42,11 +42,11 @@
                                             data-bs-target="#myModal-requestCallback">Book Appointment</a>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@sereniahills.co.id?Subject=Hello%20again">Email us</a>
+                                        <a href="mailto:info@sereniahills.co.id?Subject=Hello%20again">Email Us</a>
                                     </li>
                                     <li>
                                         <a href="https://api.whatsapp.com/send?phone=6285781134555&amp;text="
-                                            target="_blank">whatsapp</a>
+                                            target="_blank">Whatsapp</a>
                                     </li>
                                 </ul>
                                 <div class="popup" id="download-brochure" style="display: none">
