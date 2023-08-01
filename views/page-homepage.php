@@ -165,13 +165,11 @@ if (isset($post_data)) {
             <div class="col-lg-12 text-gold m-titleheader f-36" style="text-transform: uppercase;">Location</div>
         </div>
     </div>
-    <section class="section-page p-0 position-relative">
+    <section class="bg-map section-page p-0 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <?php
-                    echo do_shortcode('[smartslider3 slider="7"]');
-                    ?>
+                <div class="col-lg-12">
+                    <img src="<?= content_url(); ?>/uploads/2023/07/SE-Map-Web-3-3-1.png" class="img img-fluid">
                 </div>
             </div>
         </div>
