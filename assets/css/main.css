@@ -896,6 +896,25 @@ a.aLink-menu h6 {
     padding: 35px 0;
 }
 
+#map-mobile {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    #map-desktop {
+        display: none;
+    }
+
+    #map-mobile {
+        display: block;
+    }
+
+    #map-mobile img {
+        height:500px;
+    }
+}
+
 @media screen and (min-width:900px) {
     .carousel-item-requestpricelist {
         max-height: 61vh;
@@ -911,6 +930,15 @@ a.aLink-menu h6 {
 }
 
 @media screen and (min-width:768px) {
+
+    #map-desktop {
+        display: none;
+    }
+
+    #map-mobile {
+        display: block;
+    }
+
     .btn-pricelist button {
         width: 50%;
     }

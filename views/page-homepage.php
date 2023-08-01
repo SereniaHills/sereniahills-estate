@@ -168,11 +168,14 @@ if (isset($post_data)) {
     <section class="bg-map section-page p-0 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <!-- <img src="<?= content_url(); ?>/uploads/2023/07/SE-Map-Web-3-3-1.png" class="img img-fluid"> -->
+                <div id="map-desktop" class="col-lg-12">
                     <?php
                     echo do_shortcode('[smartslider3 slider="7"]');
                     ?>
+                </div>
+                <div id="map-mobile" class="col-lg-12">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile-SE-Map-Web-3-3-1.png"
+                        class="img img-fluid" alt="Map Serenia Estate Mobile">
                 </div>
             </div>
         </div>
