@@ -169,7 +169,10 @@ if (isset($post_data)) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="<?= content_url(); ?>/uploads/2023/07/SE-Map-Web-3-3-1.png" class="img img-fluid">
+                    <!-- <img src="<?= content_url(); ?>/uploads/2023/07/SE-Map-Web-3-3-1.png" class="img img-fluid"> -->
+                    <?php
+                    echo do_shortcode('[smartslider3 slider="7"]');
+                    ?>
                 </div>
             </div>
         </div>
