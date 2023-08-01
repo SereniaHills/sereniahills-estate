@@ -109,17 +109,12 @@
 </script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/vendor/aos/aos.js">
 </script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.0/swiper-bundle.min.js"></script> -->
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js">
 </script>
 <!-- Template Main JS File -->
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/main.js"></script>
 
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/style.js"></script>
-
-<!-- <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk3piiPT9-8oHwggreQk3mFYfAz8VPI5U&amp;callback=initMap">
-</script> -->
 
 </body>
 

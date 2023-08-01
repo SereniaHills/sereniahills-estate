@@ -55,10 +55,6 @@
     <!-- Template Main CSS File -->
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/style.css" rel="stylesheet">
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/main.css" rel="stylesheet">
-    <!-- LeafMap CSS -->
-    <!-- <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" /> -->
 
 </head>
 
