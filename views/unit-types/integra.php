@@ -27,7 +27,7 @@
                             <a class="button-unit-detail text-unit border nav-link" id="v-tabs-Floorplan-4-tab"
                                 data-bs-toggle="tab" href="#v-tabs-Floorplan-4" role="tab"
                                 aria-controls="v-tabs-Floorplan-4" aria-selected="false">
-                                Floor
+                                Roof
                             </a>
                         </div>
                     </div>
