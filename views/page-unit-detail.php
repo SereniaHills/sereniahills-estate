@@ -157,9 +157,8 @@ if (end($url_data) == 'integra') {
         <div class="row">
             <div class="col-lg-4">
                 <div class="address">
-                    <span class="title-unit">marketing office</span>
-                    <p></p>
-                    <p>Serenia Mansion Club House<br>
+                    <span class="fs-5 title-unit">marketing office</span>
+                    <p class="fs-6">Serenia Mansion Club House<br>
                         Jln. Karang Tengah Raya no.9<br>
                         Lebak Bulus, Jakarta Selatan 12440<br>
                         T : 021 7666 143<br>
@@ -170,9 +169,10 @@ if (end($url_data) == 'integra') {
             </div>
             <div class="col-lg-8">
                 <div class="description-unit">
-                    <span>Rumah dengan sistem Panasonic Smart Home untuk meningkatkan<br>keamanan dan kenyaman
+                    <span class="fs-5">Rumah dengan sistem Panasonic Smart Home untuk meningkatkan<br>keamanan dan
+                        kenyaman
                         Anda.</span>
-                    <p class="mt-3">
+                    <p class="fs-6 mt-3">
                         Serenia Hills memperkenalkan Quantum, kompleks rumah inovatif dengan sistem smart homes. Inovasi
                         smart homes dari Panasonic dipersembahkan untuk Anda bisa beraktivitas lebih maksimal. Quantum
                         yang terletak tidak jauh dari kawasan terbaik di Jakarta Selatan, memberikan Anda kemudahan
