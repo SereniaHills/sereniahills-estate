@@ -2,11 +2,10 @@
 <section id="section-6" class="bg-white py-5 section-slider">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <h3 class="text-dark-gray">Life at Serenia Estate</h3>
-            </div>
-            <div class="col-lg-6">
-                <a href="<?php echo get_site_url(); ?>/journal" class="btn float-end">See All Journal</a>
+            <div class="col-lg-12">
+                <h3 class="text-dark-gray float-start">Life at Serenia Estate</h3>
+                <a href="<?php echo get_site_url(); ?>/journal" class="btn float-end">See
+                    All</a>
             </div>
         </div>
         <div class="row">

@@ -227,7 +227,7 @@
         <div id="collapseRoofMobile" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#accordionExampleFloor">
             <div class="accordion-body">
-                <div class="container p-5">
+                <div class="container m-0 p-0">
                     <div class="row">
                         <div class="col-md-6">
                             <ul>
