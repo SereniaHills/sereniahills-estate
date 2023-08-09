@@ -21,316 +21,284 @@ if (isset($post_data)) {
 $getPeoples = getPeoples()['peoples'];
 
 ?>
+<style type="text/css">
+section {
+    padding: 0 0;
+}
 
-<section class="section-page">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12 content">
-                <div class="container container-first-section">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="p-title mtop-content">
-                                <p class="f-30">
-                                <p>A holistically crafted property that binds luxury living with an active metropolitan
-                                    lifestyle, creating the pinnacle of modern urban living.</p>
-                                <p>Waterfront city centre living, &nbsp;integrates luxury urban residences with first
-                                    class facilities and amenities alongside lush outdoor communal spaces with extensive
-                                    waterfront walkways and jogging tracks.</p>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
-<!-- end -->
-<!-- Serenia Hills -->
-<section class="section-page carousel-text-leasing-office b-bluedark">
-    <div class="container">
-        <style type="text/css">
-        .contentBlack p {
-            color: #fff !important;
-        }
-        </style>
-        <div class="row">
-            <div class="col-pg-12">
-                <div id="carouselABOUTSQIndicatorsSqOffice2" class="carousel slide carousel-fade"
-                    data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-item-aboutsq  active ">
-                            <div class="b-bluedark">
-                                <div class="container px-0">
-                                    <div class="row">
-                                        <div class="col-lg-6 mb-3 mb-lg-0">
-                                            <?php
-                                            echo do_shortcode('[smartslider3 slider="9"]');
-                                            ?>
-                                        </div>
-                                        <div class="col-lg-6 contentBlack">
-                                            <h1 class="c-white">Above it all, panoramic views of the city.</h1>
-                                            <p class="f-30 c-white" style="color: #fff;">
-                                            <p>Soar above Jakarta with unrivalled views of the waterfront and skyline.
-                                                &nbsp;Choose from our Sky57 and City57 residences at Fifty Seven
-                                                Promenade tailored in every detail to suit the most demanding guests
-                                                every need.</p>
-                                            </p>
-                                            <button class="btn learn-more b-white text-uppercase mt-4" type="button"
-                                                data-bs-toggle="modal" data-bs-target="#getEnquireModal">Enquire
-                                                now</button>
+.contentBlack p {
+    color: #fff !important;
+}
 
-                                        </div>
+.contentGray p {
+    color: #201D1D !important;
+}
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="pd-bottom-0 section-page">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12 content">
-                <div class="container container-first-section">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="p-title mtop-content">
-                                <p class="f-30">
-                                <p>An epicurious journey awaits, a fusion of culture, cuisines and the rich tapestry of
-                                    Jakarta’s vibrant social scene.</p>
-                                <p>Surrounding malls,&nbsp; rooftop bars,&nbsp; restaurants,&nbsp; cafés and deli’s make
-                                    Jakarta’s centre a food and drink haven, an ideal place for enjoying the best in
-                                    local and international cuisine. &nbsp;As the sun sets you are a stone throw away
-                                    from the cities top clubs, hotels bars,&nbsp; fine dining and entertainment.</p>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                </div>
+.container-avana,
+.container-integra,
+.container-terra,
+.container-lounge {
+    padding: 3rem;
+}
 
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
+.content-avana,
+.content-integra,
+.content-terra,
+.content-lounge {
+    height: 300px;
+}
 
+.btn-about {
+    border: 1px solid #fff;
+    color: #fff;
+}
 
-<!--  -->
-<section class="pd-bottom-0 section-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 text-gold">
-                <h3 class="c-bluedark"></h3>
-            </div>
-        </div>
-    </div>
-    <style type="text/css">
-    .contentGray p {
-        color: #201D1D !important;
+.btn-about:hover {
+    background: #fff;
+}
+
+.content-avana p,
+.content-integra p,
+.content-terra p,
+.content-lounge p {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
+
+    .container-avana,
+    .container-integra,
+    .container-terra,
+    .container-lounge {
+        padding: 1rem;
     }
-    </style>
-    <div id="carouselABOUTSQIndicatorsSqOffice3" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item carousel-item-aboutsq  active ">
-                <div class="carousel-text-leasing-office b-gray">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 mb-3 mb-lg-0">
-                                <img src="https://residences.57promenade.com/public/about/thumb-Your ultimate home above the clouds-1655789566.jpg"
-                                    class="img-leasing-office d-block w-100"
-                                    alt="Your ultimate home above the clouds - Serenia Hills Residences jaksel"
-                                    loading="lazy">
-                            </div>
-                            <div class="col-lg-6 contentGray">
-                                <h1 class="c-bluedark">Your ultimate home above the clouds</h1>
-                                <p class="f-30 c-bluedark">
-                                <p>Choose from our Sky57 and City57 residences at Fifty Seven Promenade tailored in
-                                    every detail to suit the most demanding guests every need.</p>
-                                </p>
-                                <button class="btn learn-more text-uppercase mt-4" type="button" data-bs-toggle="modal"
-                                    data-bs-target="#bookNowModal">Book
-                                    now</button>
-                            </div>
-                        </div>
+
+    .content-avana,
+    .content-integra,
+    .content-terra,
+    .content-lounge {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .container-integra .row .col-lg-6.order-lg-1.order-sm-2.order-xs-2,
+    .container-lounge .row .col-lg-6.order-lg-1.order-sm-2.order-xs-2 {
+        order: 2;
+    }
+}
+</style>
+<?php //do_shortcode($post_data->post_content); ?>
+<section class="p-4">
+    <div class="container p-lg-0" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+                <div class="fs-5 text-secondary fw-normal">
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                    <p>
+                        It has survived not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                        the release of.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section><!-- end -->
+<!-- Serenia Hills -->
+<section>
+    <div class="container container-avana" style="background-color:#c98838;">
+        <div class="row">
+            <div class="col-lg-6 mb-3 mb-lg-0">
+                <?php echo do_shortcode('[smartslider3 slider="9"]'); ?>
+            </div>
+            <div class="col-lg-6 contentBlack">
+                <div class="row">
+                    <div class="col-12 content-avana">
+                        <h1 class="text-white fs-1">Avana</h1>
+                        <p class="text-white fs-5">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five centuries
+                        </p>
+                    </div>
+                    <div class="col-12 text-right">
+                        <a href="/avana" class="btn btn-about rounded-0 text-uppercase mt-4" type="button">
+                            Learn More
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="section-page">
-    <div class="container" data-aos="fade-up">
+<section class="p-4">
+    <div class="container p-lg-0" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
-                <div class="container container-first-section">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="p-title mtop-content">
-                                <p class="f-30">
-                                <p>Easy access throughout the development via the promenade, internal walkways and sky
-                                    bridges create an oasis of unrivalled convenience.</p>
-                                <p>Fifty Seven Promenade boasts multiple exits to Jakarta’s main thoroughfares, arteries
-                                    and tollsand excellent public transport links to the Trans Jakarta Bus-way, future
-                                    Airport Express Train, Rail network and future MRT network.</p>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                </div>
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+                <div class="fs-5 text-secondary fw-normal">
+                    An epicurious journey awaits, a fusion of culture, cuisines and the rich tapestry of
+                    Jakarta’s vibrant social scene.
 
+                    Surrounding malls,  rooftop bars,  restaurants,  cafés and deli’s make Jakarta’s centre
+                    a food and drink haven, an ideal place for enjoying the best in local and international
+                    cuisine.  As the sun sets you are a stone throw away from the cities top clubs, hotels
+                    bars,  fine dining and entertainment.
+
+                </div>
             </div>
             <div class="col-lg-1"></div>
         </div>
     </div>
 </section>
+<section>
+    <div class="container container-integra" style="background-color:#c36a46;">
+        <div class="row">
+            <div class="col-lg-6 order-lg-1 order-sm-2 order-xs-2">
+                <div class="row">
+                    <div class="col-12 content-integra">
+                        <h1 class="text-white fs-1">Integra</h1>
+                        <p class="text-white fs-5">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries
+                        </p>
+                    </div>
+                    <div class="col-12 text-lg-start text-sm-endt text-xs-end">
+                        <a href="/integra" class="btn btn-about rounded-0 text-uppercase mt-4" type="button">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 mb-lg-0 order-lg-2 order-sm-1 order-xs-1">
+                <?php echo do_shortcode('[smartslider3 slider="14"]'); ?>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="p-4">
+    <div class="container p-lg-0" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+                <div class="fs-5 text-secondary fw-normal">
 
+                    Easy access throughout the development via the promenade, internal walkways and sky
+                    bridges create an oasis of unrivalled convenience.
+
+                    Fifty Seven Promenade boasts multiple exits to Jakarta’s main thoroughfares, arteries
+                    and tollsand excellent public transport links to the Trans Jakarta Bus-way, future
+                    Airport Express Train, Rail network and future MRT network.
+
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
 <!-- Black -->
-<section class="section-page b-bluedark">
-    <div class="container">
+
+<section>
+    <div class="container container-terra" style="background-color:#8e9b55;">
         <div class="row">
-            <div class="col-pg-12">
-                <div id="carouselABOUTSQIndicatorsSqOffice4" class="carousel slide carousel-fade"
-                    data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-item-aboutsq  active ">
-                            <div class="carousel-text-leasing-office">
-                                <div class="container px-0">
-                                    <div class="row">
-                                        <div class="col-lg-6 mb-3 mb-lg-0">
-                                            <img src="https://residences.57promenade.com/public/about/thumb-A higher state of health and wellness-1655790496.jpg"
-                                                class="img-leasing-office d-block w-100"
-                                                alt="A higher state of health and wellness - Serenia Hills Residences"
-                                                loading="lazy">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <h1 class="c-white">A higher state of health and wellness</h1>
-                                            <p class="f-30 c-white">
-                                            <p>The entire 58th floor is dedicated to health and wellness, with state of
-                                                the art fitness and spa amenities afforded to panoramic views of the
-                                                promenade and Jakarta skyline.&nbsp;</p>
-                                            </p>
-                                            <button class="btn learn-more b-white text-uppercase mt-4 type=" button"
-                                                data-bs-toggle="modal" data-bs-target="#bookNowModal"">Book now</button>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-											</div>
-															</div>
-									</div>
-								</div>
-							</div>
-</section>
-<!--  -->
-<section class=" pd-bottom-0 section-page">
-                                                <div class="container" data-aos="fade-up">
-                                                    <div class="row">
-                                                        <div class="col-lg-12 content">
-                                                            <div class="container container-first-section">
-                                                                <div class="row">
-                                                                    <div class="col-lg-8">
-                                                                        <div class="p-title mtop-content">
-                                                                            <p class="f-30">
-                                                                            <p>A beacon of commerce and retail, phase
-                                                                                two affirms the next chapter of the
-                                                                                promenade’s story.</p>
-                                                                            <p>A state of the art office tower combining
-                                                                                traditional business and optimising
-                                                                                innovative new spaces for the new tech
-                                                                                and creative frontier,&nbsp; with active
-                                                                                and lifestyle retail,&nbsp;</p>
-                                                                            <p>health focussed dining and entertainment
-                                                                                facilities.</p>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-2"></div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="col-lg-1"></div>
-                                                    </div>
-                                                </div>
-</section>
-
-<!-- GRAY -->
-<section class="pd-bottom-0 section-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10">
-                <h3 class="c-bluedark"></h3>
+            <div class="col-lg-6 mb-3 mb-lg-0">
+                <?php echo do_shortcode('[smartslider3 slider="15"]'); ?>
             </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-    <div id="carouselABOUTSQIndicatorsSqOffice5" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item carousel-item-aboutsq  active ">
-                <div class="carousel-text-leasing-office b-gray">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 mb-3 mb-lg-0">
-                                <img src="https://residences.57promenade.com/public/about/thumb-Residences Lounge-1655792504.jpg"
-                                    class="img-leasing-office d-block w-100"
-                                    alt="Residences Lounge - Serenia Hills Residences" loading="lazy">
-                            </div>
-                            <div class="col-lg-6 contentGray">
-                                <h1 class="c-bluedark">Residences Lounge</h1>
-                                <p class="f-30 c-bluedark">
-                                <p>A step above the rest,&nbsp; fortunate residents can nestle in with unrivalled
-                                    privacy and security, indulgent amenities,&nbsp; anticipatory service,&nbsp; and
-                                    state of the art technology.&nbsp; An impressive portfolio of exclusive amenities
-                                    exceeding your entertainment, relaxation and business needs.</p>
-                                </p>
-                                <button class="btn learn-more text-uppercase mt-4" type="button" data-bs-toggle="modal"
-                                    data-bs-target="#getEnquireModal">Enquire
-                                    now</button>
-                            </div>
-
-                        </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-12 content-terra">
+                        <h1 class="text-white">Terra</h1>
+                        <p class="text-white fs-5">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries
+                        </p>
+                    </div>
+                    <div class="col-12 text-right">
+                        <a href="/terra" class="btn btn-about rounded-0 text-uppercase mt-4">
+                            Learn More
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section><!-- -->
 
-<section class="pd-bottom-0 section-page">
-    <div class="container" data-aos="fade-up">
+<section class="p-4">
+    <div class="container p-lg-0" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+                <div class="fs-5 text-secondary fw-normal">
+
+                    A beacon of commerce and retail, phase two affirms the next chapter of the promenade’s
+                    story.
+
+                    A state of the art office tower combining traditional business and optimising innovative
+                    new spaces for the new tech and creative frontier,  with active and lifestyle retail,
+
+                    health focussed dining and entertainment facilities.
+
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section><!-- GRAY -->
+
+<section style="background-color:#bcbcb6;">
+    <div class="container container-lounge">
+        <div class="row">
+            <div class="col-lg-6 order-lg-1 order-sm-2 order-xs-2">
+                <div class="row">
+                    <div class="col-12 content-lounge">
+                        <h1 class="text-white fs-1">Residences Lounge</h1>
+                        <p class="text-white fs-5">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-about rounded-0 text-uppercase mt-4" type="button" data-bs-toggle="modal"
+                            data-bs-target="#getEnquireModal">
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 mb-lg-0 order-lg-2 order-sm-1 order-xs-1">
+                <?php echo do_shortcode('[smartslider3 slider="15"]'); ?>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class=" container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-12 py-4">
                 <div class="container container-first-section">
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="p-title mtop-content">
-                                <p class="f-30">
+                            <div class="fs-5 text-secondary fw-normal">
+                                <p class="f-30"></p>
 
-                                </p>
                             </div>
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
                 </div>
-
             </div>
             <div class="col-lg-1"></div>
         </div>
     </div>
-</section>
-<!-- end -->
-
+</section><!-- end -->
 <!-- Maps SQRes -->
 <style type="text/css">
 .title-map-form {
@@ -368,24 +336,21 @@ $getPeoples = getPeoples()['peoples'];
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery"
-                                            src="https://residences.57promenade.com/public/assets_home/images/Gallery/Serenia Hills 1-thumb--1657174412.png"
+                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
                                             alt="Serenia Hills 1, Serenia Hills Residences" loading="lazy"
                                             style="height: 225px;">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery"
-                                            src="https://residences.57promenade.com/public/assets_home/images/Gallery/Serenia Hills 2-thumb--1657174488.png"
+                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
                                             alt="Serenia Hills 2, Serenia Hills Residences" loading="lazy"
                                             style="height: 225px;">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery"
-                                            src="https://residences.57promenade.com/public/assets_home/images/Gallery/Serenia Hills 3-thumb--1657174566.jpg"
+                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
                                             alt="Serenia Hills 3, Serenia Hills Residences" loading="lazy"
                                             style="height: 225px;">
                                     </div>
@@ -396,16 +361,14 @@ $getPeoples = getPeoples()['peoples'];
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery"
-                                            src="https://residences.57promenade.com/public/assets_home/images/Gallery/Serenia Hills 4-thumb--1657174652.jpg"
+                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
                                             alt="Serenia Hills 4, Serenia Hills Residences" loading="lazy"
                                             style="height: 225px;">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery"
-                                            src="https://residences.57promenade.com/public/assets_home/images/Gallery/Serenia Hills 5-thumb--1657174676.jpg"
+                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
                                             alt="Serenia Hills 5, Serenia Hills Residences" loading="lazy"
                                             style="height: 225px;">
                                     </div>
@@ -443,8 +406,7 @@ $getPeoples = getPeoples()['peoples'];
                 <div class="row g-0 align-items-center">
                     <div class="col-lg-6 mb-3 mb-lg-0">
                         <div class="modal-image">
-                            <img src="./public/assets_home/images/57-promenade-modal-img.png"
-                                alt="Serenia Hills modal image" class="img-fluid cover">
+                            <img src="" alt="Serenia Hills modal image" class="img-fluid cover">
                         </div>
                     </div>
 
@@ -492,8 +454,7 @@ $getPeoples = getPeoples()['peoples'];
                 <div class="row g-0 align-items-center">
                     <div class="col-lg-6">
                         <div class="modal-image">
-                            <img src="./public/assets_home/images/57-promenade-modal-img.png"
-                                alt="Serenia Hills modal image" class="img-fluid cover">
+                            <img src="#" alt="Serenia Hills modal image" class="img-fluid cover">
                         </div>
                     </div>
 
