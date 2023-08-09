@@ -23,7 +23,7 @@
     font-weight: normal !important;
 }
 
-.f-30,p {
+.f-30 { /*,p*/
     font-size: 18px;
     font-family: "Titillium Web";
     font-style: normal;
@@ -80,9 +80,9 @@ a:hover {
     box-shadow: none!important;
 }
 /*#preloader:before{content:"";position:fixed;top:calc(50% - 30px);left:calc(50% - 30px);border:6px solid #81745a;border-top-color:#fff;border-bottom-color:#fff;border-radius:50%;width:60px;height:60px;-webkit-animation:1s linear infinite animate-preloader;animation:1s linear infinite animate-preloader}*/ 
-p {
+/* p {
     font-weight: 400;
-}
+} */
 
 .nopadding {
     padding: 0!important;
@@ -550,8 +550,8 @@ a.aLink-menu h6 {
 .learn-more {
     border-radius: 0!important;
     padding: 10px 25px;
-    border: 1px solid #867b6a;
-    background-color: #867b6a;
+    border: 1px solid #fff; /* #867b6a */
+    background-color: transparent; /* #867b6a */
     color: #fff;
 }
 
