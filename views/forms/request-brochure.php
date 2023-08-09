@@ -82,7 +82,7 @@
                         </div>
                         <span id="captcha" style="color:red"></span>
                     </div>
-                    <button type="submit" class="btn bg-dark-gray fs-6 fw-normal learn-more text-uppercase w-100">
+                    <button type="submit" class="btn bg-dark-gray fs-6 learn-more text-uppercase w-100">
                         <span class="span_request">
                             Request Pricelist
                         </span>
