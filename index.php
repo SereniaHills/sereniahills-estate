@@ -44,7 +44,7 @@ if (in_array(dynamicModules()[0], $parseUrl)) {
         include 'models/frontModel.php';
         include 'controllers/aboutController.php';
         
-        // include 'views/forms/request-brochure.php';
+        include 'views/forms/request-brochure.php';
         include 'views/page-about.php';
 
         include 'views/layouts/footer.php';
