@@ -15,6 +15,11 @@
 /* 
 ** End 
 */
+
+.border-button {
+    border: 1px solid #867b6a !important;
+}
+
 .bg-map {
     background-color: #BCBCB3FF;
 }
@@ -580,12 +585,12 @@ a.aLink-menu h6 {
 
 .title-book-viewing {
     margin-bottom: 15px;
-    font-family: "Titillium Web";
+    /* font-family: "Titillium Web";
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1.2px;
-    line-height: 20px;
+    font-weight: 700; */
+    font-size: 17px;
+    letter-spacing: 0px;/*1.2px;*/
+    line-height: 28px;
 }
 
 .address-down-content,.content-isi {
