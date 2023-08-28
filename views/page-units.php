@@ -25,7 +25,7 @@ if (isset($post_data)) {
     echo do_shortcode('[smartslider3 slider="8"]');
     ?>
 </div>
-<section class="pt-5">
+<section class="pt-5 pb-5">
     <div class="container">
         <div class="row">
             <?php 
@@ -100,82 +100,79 @@ if (isset($post_data)) {
 </section>
 
 <!-- Booking View -->
-<section id="booking" class="pb-4">
-    <div class="container container-page" data-aos="fade-up">
+<section id="booking" class="bg-white pt-4 pb-4">
+    <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
+            <div class="col-md-6 col-sm-12">
                 <h1 class="titlecontent f-80 l-spacing-1">Book a Viewing</h1>
-                <h5 class="title-book-viewing text-gold f-36">Complete the form below and a member of our sales and
-                    marketing team shall<br>contact you with the details of your appointment or enquiry.</h5>
-                <div class="row">
-                    <div class="col-lg-12 mt-5 mt-lg-0">
-
-                        <!-- <form action="https://residences.SereniaHills.com/booking/create" method="post" role="form" id="form-all-booking" class="form-all-booking php-email-form"> -->
-                        <form action="#" id="form-booking-view" name="requestBookingView"
-                            class="form-all php-email-form">
-                            <input type="hidden" name="_token" value="HTOIO8YcWrbSk0h20dFiZkg2jVvblz63ASXexJRE">
-                            <div id="success" class="alert alert-success d-none">Thank you, we will contact you soon!
-                            </div>
-                            <input type="hidden" name="url_current" value="units">
-                            <div class="row">
-                                <div class="form-group mt-3">
-                                    <input type="text" name="name" class="form-control f-20" id="name"
-                                        placeholder="Full Name*" required>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <input type="email" class="form-control f-20" name="email" id="email"
-                                        placeholder="Email Address*" required>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <input type="text" class="form-control f-20" name="phone" id="phone"
-                                    placeholder="Phone Number*" required>
-                            </div>
-                            <div class="row row-cols-lg-auto g-3 align-items-center mb-2">
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-3">
-                                        <input type="date" class="form-control f-20" name="date" id="date" required>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-3">
-                                        <select name="time" id="time" class="form-control form-select f-20" required>
-                                            <option value="09:00-12:00">09:00-12:00</option>
-                                            <option value="12:00-13:00">12:00-13:00</option>
-                                            <option value="13:00-15:00">13:00-15:00</option>
-                                            <option value="15:00-18:00">15:00-18:00</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control f-20" name="message" id="message" rows="5"
-                                    placeholder="Write Your Message"></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="mb-2">
-                                    <div class="g-recaptcha" id="rcaptcha-02"
-                                        data-sitekey="6LfNRiMfAAAAAMoJeUPuZpEl3M-zj3bIqE7KTwYq"></div>
-                                    <span id="captcha" style="color:red" ;></span>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" id="btnSend" class="btn b-white learn-more c-white f-20"
-                                    style="float: right;padding: 8px 35px;">
-                                    <span class="span_send">
-                                        Send
-                                    </span>
-                                    <div id="loading-booking-view"
-                                        class="spinner-border text-light position-absolute d-none" role="status">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                </button>
-                                <div style="clear: both;"></div>
-                            </div>
-                        </form>
-
+                <h5 class="title-book-viewing text-gold f-36" style="text-transform: inherit;">Complete the form below
+                    and a member of our sales and<br>
+                    marketing team shall contact you with the details of your appointment or enquiry.
+                </h5>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <!-- <form action="https://residences.SereniaHills.com/booking/create" method="post" role="form" id="form-all-booking" class="form-all-booking php-email-form"> -->
+                <form action="#" id="form-booking-view" name="requestBookingView" class="form-all php-email-form">
+                    <input type="hidden" name="_token" value="HTOIO8YcWrbSk0h20dFiZkg2jVvblz63ASXexJRE">
+                    <div id="success" class="alert alert-success d-none">Thank you, we will contact you soon!
                     </div>
-                </div>
+                    <input type="hidden" name="url_current" value="units">
+                    <div class="row">
+                        <div class="form-group mt-3">
+                            <input type="text" name="name" class="form-control f-20" id="name" placeholder="Full Name*"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="email" class="form-control f-20" name="email" id="email"
+                                placeholder="Email Address*" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control f-20" name="phone" id="phone" placeholder="Phone Number*"
+                            required>
+                    </div>
+                    <div class="row row-cols-lg-auto g-3 align-items-center mb-2">
+                        <div class="col-lg-6">
+                            <div class="form-group mt-3">
+                                <input type="date" class="form-control f-20" name="date" id="date" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group mt-3">
+                                <select name="time" id="time" class="form-control form-select f-20" required>
+                                    <option value="09:00-12:00">09:00-12:00</option>
+                                    <option value="12:00-13:00">12:00-13:00</option>
+                                    <option value="13:00-15:00">13:00-15:00</option>
+                                    <option value="15:00-18:00">15:00-18:00</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control f-20" name="message" id="message" rows="5"
+                            placeholder="Write Your Message"></textarea>
+                    </div>
+                    <div class="my-3">
+                        <div class="mb-2">
+                            <div class="g-recaptcha" id="rcaptcha-02"
+                                data-sitekey="6LfNRiMfAAAAAMoJeUPuZpEl3M-zj3bIqE7KTwYq"></div>
+                            <span id="captcha" style="color:red" ;></span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="btnSend" class="btn b-white learn-more c-white f-20"
+                            style="float: right;padding: 8px 35px;">
+                            <span class="span_send">
+                                Send
+                            </span>
+                            <div id="loading-booking-view" class="spinner-border text-light position-absolute d-none"
+                                role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
