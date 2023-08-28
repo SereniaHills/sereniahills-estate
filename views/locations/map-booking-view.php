@@ -1,4 +1,4 @@
-<section id="booking" class="section-page mb-4">
+<section id="booking" class="bg-white pt-4 pb-4">
     <div class="container position-relative">
         <div class="row gx-5">
             <div class="col-lg-6 mb-3 mb-lg-0">
@@ -38,8 +38,9 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <a href="https://www.google.com/maps/place/Serenia+Hills+at+Pondok+Pinang/@-6.2710805,106.7701555,15z/data=!4m6!3m5!1s0x2e69f17c7c0cc1ef:0xad0cebf1588d1fab!8m2!3d-6.2710805!4d106.7701555!16s%2Fg%2F11kpjgqgwb?entry=ttu"
                     target="_blank">
-                    <button type="button" class="btn b-white learn-more rounded-0 text-uppercase">Open in Google
-                        Maps</button>
+                    <button type="button" class="btn b-white border-button learn-more rounded-0 text-uppercase">Open in
+                        Google Maps
+                    </button>
                 </a>
             </div>
             <div class="col-lg-6">
@@ -92,7 +93,7 @@
                         <div class="col-lg-6">
                             <div class="mb-3 d-flex justify-content-end" style="right: 8px;top:43px;">
                                 <button type="submit" role="button"
-                                    class="btn b-white learn-more rounded-0 d-flex align-items-center">
+                                    class="btn b-white border-button learn-more rounded-0 d-flex align-items-center">
                                     <span class="span_send">
                                         SUBMIT
                                     </span>
