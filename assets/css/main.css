@@ -717,7 +717,7 @@ a.aLink-menu h6 {
 .announcent {
     position: fixed;
     right: 0;
-    bottom: 30%;
+    bottom: 5%; /* 30% */
     z-index: 999;
 }
 
