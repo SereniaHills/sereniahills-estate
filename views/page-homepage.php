@@ -21,9 +21,9 @@ if (isset($post_data)) {
 <section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
+            <div class="col-lg-12 col-sm-12 content">
                 <h1 class="titlecontent f-50 l-spacing-1">Elegantly designed amidst<br />natural serenity</h1>
-                <div class="container container-first-section">
+                <div class="container p-0 m-0">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="p-title">
@@ -53,12 +53,12 @@ if (isset($post_data)) {
 <section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
+            <div class="col-lg-12 col-sm-12 content">
                 <h1 class="titlecontent f-80 l-spacing-1">
                     Embrace The Ultimate Blend Of Lifestyle and Invesment<br>
                     In South Jakarta’s Finest Residential Offering.
                 </h1>
-                <div class="container container-first-section">
+                <div class="container p-0 m-0">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="p-title">
@@ -180,9 +180,9 @@ if (isset($post_data)) {
 <section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 content">
+            <div class="col-lg-12 col-sm-12 content">
                 <h1 class="titlecontent mb-3 f-80 l-spacing-1">Prime City Centre Location</h1>
-                <div class="container container-first-section">
+                <div class="container p-0 m-0">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="p-title">
