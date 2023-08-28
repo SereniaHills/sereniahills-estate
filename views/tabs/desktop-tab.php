@@ -17,7 +17,8 @@
         <div class="tab-pane bg-white p-4 fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex2-tab-1">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?= content_url(); ?>/uploads/2023/07/20130315-IMG_7176.png" class="img-fluid" alt="PIM">
+                    <img src="<?= content_url(); ?>/uploads/2023/07/20130315-IMG_7176.png" style="height:420px;"
+                        class="img-fluid" alt="PIM">
                 </div>
                 <div class="col-md-6">
                     <p>
@@ -32,7 +33,8 @@
         <div class="tab-pane bg-white p-4 fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?= content_url(); ?>/uploads/2023/07/TB-simatupang.png" class="img-fluid" alt="PIM">
+                    <img src="<?= content_url(); ?>/uploads/2023/07/TB-simatupang.png" style="height:420px;"
+                        class="img-fluid" alt="PIM">
                 </div>
                 <div class="col-md-6">
                     <p>
@@ -47,7 +49,8 @@
         <div class="tab-pane bg-white p-4 fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?= content_url(); ?>/uploads/2023/07/20130215-PIGA-1c-2.png" class="img-fluid" alt="PIM">
+                    <img src="<?= content_url(); ?>/uploads/2023/07/20130215-PIGA-1c-2.png" style="height:420px;"
+                        class="img-fluid" alt="PIM">
                 </div>
                 <div class="col-md-6">
                     <p>
