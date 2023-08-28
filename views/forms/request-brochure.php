@@ -55,7 +55,7 @@
         font-weight: 700;
     }
     </style>
-    <div class="container position-absolute start-0 end-0 top-0 bottom-0 d-flex align-items-center">
+    <div id="formBrochure" class="container position-absolute start-0 end-0 top-0 bottom-0 d-flex align-items-center">
         <div class="row pt-5">
             <div class="col-md-12">
                 <form action="#" id="form-home-request" name="requestBrochure" class="form-all php-email-form">
