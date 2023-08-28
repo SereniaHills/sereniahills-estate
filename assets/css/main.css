@@ -219,7 +219,8 @@ a:hover {
 
 #header .logo img {
     max-height: 75px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container-menu,.container-page {
