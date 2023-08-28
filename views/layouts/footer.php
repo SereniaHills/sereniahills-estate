@@ -3,12 +3,6 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <h3>
-                    <a href="index.html">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/All-Logos--06.png"
-                            style="width: 180px;" alt="Serenia HIlls" loading="lazy">
-                    </a>
-                </h3>
                 <div class="col-lg-4 col-md-6 footer-contact">
                     <p>
                         Marketing Gallery<br>Jln. Karang Tengah Raya No.9<br>
