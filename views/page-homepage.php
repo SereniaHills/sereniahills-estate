@@ -18,7 +18,7 @@ if (isset($post_data)) {
 ?>
 <?php // echo do_shortcode($post_data->post_content); ?>
 <!-- ======= First Section ======= -->
-<section class="section-page mt-3 mb-3">
+<section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 content">
@@ -31,7 +31,8 @@ if (isset($post_data)) {
                                     pool, residents can enjoy a safe and luxurious lifestyle. Serenia Hills’ success in
                                     Lebak Bulus, recognized with the FIABCI Prix d’excellence gold award, marks a
                                     significant milestone for Intiland.</p>
-                                <p class="f-30">The new Serenia Estate is perfectly situated, just minutes away from
+                                <p class="f-30 mb-0">The new Serenia Estate is perfectly situated, just minutes away
+                                    from
                                     Pondok Indah’s vibrant lifestyle district and the prestigious Pondok Indah Golf
                                     Course.</p>
                             </div>
@@ -49,19 +50,19 @@ if (isset($post_data)) {
 <div class="wp-block-nextend-smartslider3"><?php echo do_shortcode('[smartslider3 slider="3"]'); ?></div>
 <!-- /wp:nextend/smartslider3 -->
 
-<section class="section-page mt-3 mb-3">
+<section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 content">
                 <h1 class="titlecontent f-80 l-spacing-1">
-                    EMBRACE THE ULTIMATE BLEND OF LIFESTYLE AND INVESTMENT<br>
-                    IN SOUTH JAKARTA’S FINEST RESIDENTIAL OFFERING.
+                    Embrace The Ultimate Blend Of Lifestyle and Invesment<br>
+                    In South Jakarta’s Finest Residential Offering.
                 </h1>
                 <div class="container container-first-section">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="p-title">
-                                <p class="f-30">
+                                <p class="f-30 mb-0">
                                     A step above the rest, fortunate residents can nestle in with unrivalled
                                     privacy and security, indulgent amenities, anticipatory service, and state of the
                                     art technology. An impressive portfolio of exclusive amenities exceeding your
@@ -76,7 +77,7 @@ if (isset($post_data)) {
     </div>
 </section>
 
-<section class="position-relative">
+<section class="position-relative mt-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 text-gold m-titleheader mb-0 f-36">
@@ -85,8 +86,8 @@ if (isset($post_data)) {
                 </h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 p-4">
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
                 <div class="card p-4 text-center">
                     <img src="<?= content_url(); ?>/uploads/2023/07/LOGO-prix-new-Aug-gold-2022-png.png"
                         class="card-img-top" alt="Gambar 1" style="width:100%;max-width:200px;margin:auto;">
@@ -101,7 +102,7 @@ if (isset($post_data)) {
                 </div>
             </div>
 
-            <div class="col-md-4 p-4">
+            <div class="col-md-4 mb-4">
                 <div class="card p-4 text-center">
                     <img src="<?= content_url(); ?>/uploads/2023/07/Property-Guru-2018.png" class="card-img-top"
                         alt="Gambar 2" style="width:100%;max-width:200px;margin:auto;">
@@ -115,7 +116,7 @@ if (isset($post_data)) {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 p-4">
+            <div class="col-md-4">
                 <div class="card p-4 text-center">
                     <img src="<?= content_url(); ?>/uploads/2023/07/FINAL-MEDAL.png" class="card-img-top" alt="Gambar 3"
                         style="width:100%;max-width:200px;margin:auto;">
@@ -132,16 +133,16 @@ if (isset($post_data)) {
         </div>
     </div>
 </section>
-<section class="position-relative">
+<section class="position-relative mt-2 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 text-gold m-titleheader mb-2 f-36">
+            <div class="col-lg-12 text-gold m-titleheader mb-3 f-36">
                 <h1 class="titlecontent f-80 l-spacing-1">
                     Convenient Surroundings
                 </h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
             <!-- Tab Desktop -->
             <?php include (__DIR__ . '/tabs/desktop-tab.php'); ?>
             <!-- End Tab Desktop -->
@@ -152,38 +153,40 @@ if (isset($post_data)) {
     </div>
 </section>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-gold m-titleheader f-36" style="text-transform: uppercase;">Location</div>
-    </div>
-</div>
 <section class="bg-map p-0 position-relative">
     <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-12" style="text-transform: uppercase;">
+                <h1 class="text-white titlecontent f-80 l-spacing-1">
+                    Location
+                </h1>
+            </div>
+        </div>
         <div class="row">
-            <div id="map-desktop" class="col-lg-12">
+            <div id="map-desktop" class="col-lg-12 mb-4">
                 <?php echo do_shortcode('[smartslider3 slider="7"]'); ?>
             </div>
-            <div id="middle-desktop" class="col-lg-12">
+            <div id="middle-desktop" class="col-lg-12 mb-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile-SE-Map-Web-3-3-1.png"
                     class="img img-fluid" alt="Map Serenia Estate Middle">
             </div>
-            <div id="map-mobile" class="col-lg-12">
+            <div id="map-mobile" class="col-lg-12 mb-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile-SE-Map-Web-3-3-1.png"
                     class="img img-fluid w-100" alt="Map Serenia Estate Mobile">
             </div>
         </div>
     </div>
 </section>
-<section>
+<section class="mt-4 mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 content">
-                <h1 class="titlecontent f-80 l-spacing-1">Prime City Centre Location</h1>
+                <h1 class="titlecontent mb-3 f-80 l-spacing-1">Prime City Centre Location</h1>
                 <div class="container container-first-section">
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="p-title">
-                                <p class="f-30">
+                                <p class="f-30 mb-0">
                                     Situated a mere 5 minutes from Pondok Indah and 7 minutes from the Lebak Bulus
                                     MRT Station, Serenia Hills at Pondok Pinang spans across 2.2 hectares of
                                     meticulously designed land, offering a collection of 113 homes within a private,
@@ -203,11 +206,13 @@ if (isset($post_data)) {
 <?php 
     $latest_types = latest_types_homepage()['latest_types'];
 ?>
-<section>
+<section class="mb-4">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-lg-12 text-gold m-titleheader mb-3 f-36">
-                <a href="<?= get_site_url().'/units'; ?>">UNIT TYPES</a>
+            <div class="col-lg-12">
+                <a href="<?= get_site_url().'/units'; ?>">
+                    <h3 class="titlecontent mb-4" style="font-size:25px;">Unit Types</h1>
+                </a>
             </div>
         </div>
         <div class="row">
@@ -231,14 +236,18 @@ if (isset($post_data)) {
                 }
             ?>
 
+            <div class="col-md-12 text-left">
+                <button class="btn text-uppercase learn-more b-white" type="button" data-bs-toggle="modal"
+                    data-bs-target="#getEnquireModal">Get Offer</button>
+            </div>
         </div>
     </div>
 </section>
-<section>
+<!-- <section>
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12">
-                <!-- <h1 class="titlecontent f-80 l-spacing-1">Above it all, panoramic citywide views</h1>
+                <h1 class="titlecontent f-80 l-spacing-1">Above it all, panoramic citywide views</h1>
                     <div class="container container-first-section">
                         <div class="row">
                             <div class="col-lg-8">
@@ -252,13 +261,13 @@ if (isset($post_data)) {
                             </div>
                             <div class="col-lg-4"></div>
                         </div>
-                    </div> -->
+                    </div>
                 <button class="btn text-uppercase learn-more b-white" type="button" data-bs-toggle="modal"
                     data-bs-target="#getEnquireModal">Get Offer</button>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <style type="text/css">
 .title-map-form {
