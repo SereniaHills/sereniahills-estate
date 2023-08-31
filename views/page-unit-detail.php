@@ -152,7 +152,7 @@ if (end($url_data) == 'integra') {
 <!-- End Submenu Unit Detail -->
 <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/unit-detail.css" rel="stylesheet">
 
-<section id="section-2" class="mb-5 section-3">
+<section id="section-2" class="mb-5 section-3 pt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
