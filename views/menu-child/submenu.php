@@ -68,7 +68,7 @@
                     <ul>
                         <li class="submenu-li">
                             <a href="<?= get_site_url()?>/wp-content/uploads/SE-Brochure-Digital-N-rev.pdf"
-                                class="title-link-submenu" style="padding-left: 0;" download>Download
+                                class="title-link-submenu" style="padding-left: 0;margin-right:3px;" download>Download
                                 Brochure</a>
                         </li>
                         <li class="submenu-li"><a href="tel:085781134555" class="title-link-submenu">Call Us</a></li>
@@ -83,7 +83,7 @@
                         </li>
                         <li class="submenu-li">
                             <a href="mailto:info@sereniahills.co.id?Subject=Hello%20again" class="title-link-submenu"
-                                style="margin-right: 10px;">Email
+                                style="margin-right: 13px;">Email
                                 Us</a>
                         </li>
                         <li class="submenu-li">
