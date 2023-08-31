@@ -59,7 +59,7 @@
         </div>
     </div>
 </section>
-<section class="d-none d-lg-block pt-3 pb-3" style="background:#63666a;">
+<section id="menuBottom" class="d-none d-lg-block pt-3 pb-3" style="background:#63666a;">
     <div class="container">
         <div class="row">
             <div class="col-lg-4"></div>
@@ -180,6 +180,7 @@ $(window).scroll(function() {
         $('#menuBottom').addClass("position-fixed");
         $('#menuBottom').css('top', '60px');
         $('#menuBottom').css('right', '0');
+        $('#menuBottom').css('left', '0');
     } else {
         // console.log("near top!" + $(window).scrollTop());
         // console.log("heroAvana top!: " + $('#heroAvana').height());
