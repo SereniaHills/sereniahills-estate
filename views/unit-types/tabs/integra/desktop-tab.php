@@ -1,6 +1,6 @@
 <div class="col-lg-12 d-none d-md-block">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-4">
             <div class="nav flex-column nav-tabs text-center" id="v-tabs-tab" role="tablist"
                 aria-orientation="vertical">
                 <a class="button-unit-detail text-unit border nav-link active" id="v-tabs-Floorplan-1-tab"
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="col-md-9 border p-4">
+        <div class="col-lg-8 border p-4">
             <div class="tab-content" id="v-tabs-tabContent">
                 <div class="tab-pane bg-light fade show active" id="v-tabs-Floorplan-1" role="tabpanel"
                     aria-labelledby="v-tabs-Floorplan-1-tab">
