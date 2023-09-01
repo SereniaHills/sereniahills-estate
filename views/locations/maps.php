@@ -6,7 +6,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="background:#F5F5F5;">
         <div class="row">
             <div class="col-lg-12 px-0">
                 <iframe
