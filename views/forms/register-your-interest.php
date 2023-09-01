@@ -33,7 +33,7 @@
                     </div>
                     <input type="hidden" name="action" value="register_your_interest">
                     <input type="submit" value="Register Your Interest"
-                        class="btn button-unit learn-more b-bluedark c-white text-uppercase fw-normal fs-6 btn-lg w-lg-50 w-sm-100 opacity-1 rounded-0">
+                        class="btn b-white border-button learn-more rounded-0 text-uppercase">
                 </form>
                 <div class="thank register-interest-thank" style="display: none;">
                     <div class="close-popup-thank"></div>
