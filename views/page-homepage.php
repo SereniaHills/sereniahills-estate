@@ -244,32 +244,6 @@ if (isset($post_data)) {
         </div>
     </div>
 </section>
-<!-- <section>
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="titlecontent f-80 l-spacing-1">Above it all, panoramic citywide views</h1>
-                    <div class="container container-first-section">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="p-title">
-                                    <p class="f-30">
-                                        Serenia Hills Estates Sky57 and City57 are part of the ensemble of tall
-                                        buildings at Serenia Hills Estate Standing more than 900 feet high,
-                                        residents are welcomed to a sanctuary above the bustle of Jakarta. &nbsp;
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4"></div>
-                        </div>
-                    </div>
-                <button class="btn text-uppercase learn-more b-white" type="button" data-bs-toggle="modal"
-                    data-bs-target="#getEnquireModal">Get Offer</button>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 <style type="text/css">
 .title-map-form {
     font-size: 18px;
