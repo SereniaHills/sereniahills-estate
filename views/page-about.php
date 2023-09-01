@@ -248,7 +248,8 @@ section {
                 <div class="row g-0 align-items-center">
                     <div class="col-lg-6 mb-3 mb-lg-0">
                         <div class="modal-image">
-                            <img src="" alt="Serenia Hills modal image" class="img-fluid cover">
+                            <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2023/07/shutterstock_1812849175-2-1.jpg"
+                                alt="Serenia Hills modal image" class="img w-100" style="height:380px;">
                         </div>
                     </div>
 
