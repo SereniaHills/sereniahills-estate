@@ -45,7 +45,7 @@ section {
 .content-integra,
 .content-terra,
 .content-lounge {
-    height: 300px;
+    height: 245px;
 }
 
 .btn-about {
@@ -90,8 +90,8 @@ section {
 }
 </style>
 <?php //do_shortcode($post_data->post_content); ?>
-<section class="p-4">
-    <div class="container p-lg-0" data-aos="fade-up">
+<section class="pt-4 pb-4">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-8 col-sm-12 col-xs-12">
                 <div class="fs-5 text-secondary fw-normal">
@@ -111,128 +111,94 @@ section {
         </div>
     </div>
 </section><!-- end -->
-<!-- Serenia Hills -->
-<section>
-    <div class="container container-avana" style="background-color:#c98838;">
+
+<section class="pb-5">
+    <!-- wp:nextend/smartslider3 {"slider":"3"} -->
+    <div class="wp-block-nextend-smartslider3"><?php echo do_shortcode('[smartslider3 slider="3"]'); ?></div>
+    <!-- /wp:nextend/smartslider3 -->
+
+</section>
+
+<section class="pb-5">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6 mb-3 mb-lg-0">
-                <?php echo do_shortcode('[smartslider3 slider="9"]'); ?>
-            </div>
-            <div class="col-lg-6 contentBlack">
-                <div class="row">
-                    <div class="col-12 content-avana">
-                        <h1 class="text-white fs-1">Avana</h1>
-                        <p class="text-white fs-5">
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a
-                            type specimen book. It has survived not only five centuries
+            <div class="col-md-4 pb-5">
+                <div class="card border-0" style="background-color:#c36a46;">
+                    <?php echo do_shortcode('[smartslider3 slider="9"]'); ?>
+                    <div class="card-body text-white">
+                        <h4 class="fs-5 text-white text-secondary fw-bold">Integra</h4>
+                        <p class="card-text text-white fs-5 text-secondary fw-normal">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
                     </div>
-                    <div class="col-12 text-right">
-                        <a href="/avana" class="btn btn-about rounded-0 text-uppercase mt-4" type="button">
-                            Learn More
-                        </a>
+                    <div class="border-0 card-footer pb-3 text-right" style="background-color: unset;">
+                        <a href="<?php echo get_site_url(); ?>/integra/"
+                            class="align-items-center btn learn-more p-2 rounded-0 text-center text-uppercase">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-5">
+                <div class="card border-0" style="background-color: #c98838;">
+                    <?php echo do_shortcode('[smartslider3 slider="14"]'); ?>
+                    <div class="card-body text-white">
+                        <h4 class="fs-5 text-white text-secondary fw-bold">Avana</h4>
+                        <p class="card-text text-white fs-5 text-secondary fw-normal">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                    <div class="border-0 card-footer pb-3 text-right" style="background-color: unset;">
+                        <a href="<?php echo get_site_url(); ?>/avana/"
+                            class="align-items-center btn learn-more p-2 rounded-0 text-center text-uppercase">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pb-5">
+                <div class="card border-0" style="background-color: #8e9b55;">
+                    <?php echo do_shortcode('[smartslider3 slider="15"]'); ?>
+                    <div class="card-body text-white">
+                        <h4 class="fs-5 text-white text-secondary fw-bold">Terra</h4>
+                        <p class="card-text text-white fs-5 text-secondary fw-normal">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                    <div class="border-0 card-footer pb-3 text-right" style="background-color: unset;">
+                        <a href="<?php echo get_site_url(); ?>/terra/"
+                            class="align-items-center btn learn-more p-2 rounded-0 text-center text-uppercase">Detail</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="p-4">
-    <div class="container p-lg-0" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-8 col-sm-12 col-xs-12">
-                <div class="fs-5 text-secondary fw-normal">
-                    An epicurious journey awaits, a fusion of culture, cuisines and the rich tapestry of
-                    Jakarta’s vibrant social scene.
-
-                    Surrounding malls,  rooftop bars,  restaurants,  cafés and deli’s make Jakarta’s centre
-                    a food and drink haven, an ideal place for enjoying the best in local and international
-                    cuisine.  As the sun sets you are a stone throw away from the cities top clubs, hotels
-                    bars,  fine dining and entertainment.
-
-                </div>
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container container-integra" style="background-color:#c36a46;">
-        <div class="row">
+<section style="background-color:#bcbcb6;">
+    <div class="container">
+        <div class="row pt-5 pb-5">
             <div class="col-lg-6 order-lg-1 order-sm-2 order-xs-2">
                 <div class="row">
-                    <div class="col-12 content-integra">
-                        <h1 class="text-white fs-1">Integra</h1>
+                    <div class="col-12 content-lounge">
+                        <h1 class="text-white fs-1">Residences Lounge</h1>
                         <p class="text-white fs-5">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                             unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                             survived not only five centuries
                         </p>
                     </div>
-                    <div class="col-12 text-lg-start text-sm-endt text-xs-end">
-                        <a href="/integra" class="btn btn-about rounded-0 text-uppercase mt-4" type="button">
-                            Learn More
-                        </a>
+                    <div class="col-12">
+                        <button class="btn btn-about rounded-0 text-uppercase mt-4 mb-4" type="button"
+                            data-bs-toggle="modal" data-bs-target="#getEnquireModal">
+                            Enquire Now
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mb-3 mb-lg-0 order-lg-2 order-sm-1 order-xs-1">
-                <?php echo do_shortcode('[smartslider3 slider="14"]'); ?>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="p-4">
-    <div class="container p-lg-0" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-8 col-sm-12 col-xs-12">
-                <div class="fs-5 text-secondary fw-normal">
-
-                    Easy access throughout the development via the promenade, internal walkways and sky
-                    bridges create an oasis of unrivalled convenience.
-
-                    Fifty Seven Promenade boasts multiple exits to Jakarta’s main thoroughfares, arteries
-                    and tollsand excellent public transport links to the Trans Jakarta Bus-way, future
-                    Airport Express Train, Rail network and future MRT network.
-
-                </div>
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
-<!-- Black -->
-
-<section>
-    <div class="container container-terra" style="background-color:#8e9b55;">
-        <div class="row">
-            <div class="col-lg-6 mb-3 mb-lg-0">
                 <?php echo do_shortcode('[smartslider3 slider="15"]'); ?>
             </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-12 content-terra">
-                        <h1 class="text-white">Terra</h1>
-                        <p class="text-white fs-5">
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries
-                        </p>
-                    </div>
-                    <div class="col-12 text-right">
-                        <a href="/terra" class="btn btn-about rounded-0 text-uppercase mt-4">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</section><!-- -->
-
-<section class="p-4">
-    <div class="container p-lg-0" data-aos="fade-up">
+</section>
+<section class="pt-4 pb-4">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-8 col-sm-12 col-xs-12">
                 <div class="fs-5 text-secondary fw-normal">
@@ -251,55 +217,7 @@ section {
         </div>
     </div>
 </section><!-- GRAY -->
-
-<section style="background-color:#bcbcb6;">
-    <div class="container container-lounge">
-        <div class="row">
-            <div class="col-lg-6 order-lg-1 order-sm-2 order-xs-2">
-                <div class="row">
-                    <div class="col-12 content-lounge">
-                        <h1 class="text-white fs-1">Residences Lounge</h1>
-                        <p class="text-white fs-5">
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <button class="btn btn-about rounded-0 text-uppercase mt-4" type="button" data-bs-toggle="modal"
-                            data-bs-target="#getEnquireModal">
-                            Enquire Now
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-3 mb-lg-0 order-lg-2 order-sm-1 order-xs-1">
-                <?php echo do_shortcode('[smartslider3 slider="15"]'); ?>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class=" container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12 py-4">
-                <div class="container container-first-section">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="fs-5 text-secondary fw-normal">
-                                <p class="f-30"></p>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section><!-- end -->
-<!-- Maps SQRes -->
+<!-- Maps -->
 <style type="text/css">
 .title-map-form {
     font-size: 18px;
@@ -317,84 +235,8 @@ section {
 <?php include (__DIR__ . '/locations/map-booking-view.php'); ?>
 <!-- End Maps Booking View -->
 <!-- end -->
-<section class="section-page">
-    <div class="container">
-        <div class="row">
-            <h1 class="titlecontent f-80 l-spacing-1">Gallery</h1>
-        </div>
-    </div>
-</section>
-<!-- Gallery Page -->
 
-<section class="section-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item multicarousel active">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
-                                            alt="Serenia Hills 1, Serenia Hills Residences" loading="lazy"
-                                            style="height: 225px;">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
-                                            alt="Serenia Hills 2, Serenia Hills Residences" loading="lazy"
-                                            style="height: 225px;">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
-                                            alt="Serenia Hills 3, Serenia Hills Residences" loading="lazy"
-                                            style="height: 225px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item multicarousel ">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
-                                            alt="Serenia Hills 4, Serenia Hills Residences" loading="lazy"
-                                            style="height: 225px;">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="south-quarter-gallery" src=""
-                                            alt="Serenia Hills 5, Serenia Hills Residences" loading="lazy"
-                                            style="height: 225px;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev carousel-control-prev-sqres" type="button"
-                        data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next carousel-control-next-sqres" type="button"
-                        data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end -->
-
-
-
+<!-- Modals -->
 <div class="modal fade" id="getEnquireModal" tabindex="-1" aria-labelledby="getEnquireModalLabel" aria-hidden="true"
     style="">
     <div class="modal-dialog modal-lg modal-dialog-centered">
