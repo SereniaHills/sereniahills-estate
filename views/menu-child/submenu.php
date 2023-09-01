@@ -182,12 +182,14 @@ $(window).scroll(function() {
         $('#menuBottom').css('top', '60px');
         $('#menuBottom').css('right', '0');
         $('#menuBottom').css('left', '0');
+        $('#menuBottom').css('z-index', '1');
     } else {
         // console.log("near top!" + $(window).scrollTop());
         // console.log("heroAvana top!: " + $('#heroAvana').height());
         $('#menuBottom').removeClass("position-fixed");
         $('#menuBottom').css('top', 'unset');
         $('#menuBottom').css('right', 'unset');
+
     }
 });
 </script>
