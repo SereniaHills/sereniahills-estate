@@ -284,8 +284,6 @@ section {
         </div>
     </div>
 </div>
-
-
 <div class="modal fade" id="bookNowModal" tabindex="-1" aria-labelledby="bookNowModalLabel" aria-hidden="true"
     style="z-index: 9999;">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -348,11 +346,8 @@ section {
                                     <span class="visually-hidden">Loading...</span>
                                 </div>
                             </button>
-
                         </form>
-
                     </div>
-
                 </div>
             </div>
         </div>
