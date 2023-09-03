@@ -70,10 +70,27 @@ if (isset($post_data)) {
     </div>
 </div>
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="" </div>
+<!-- Maps Booking View -->
+<?php include (__DIR__ . '/forms/register-pricelist.php'); ?>
+<!-- End Maps Booking View -->
+<section style="overflow: visible;" class="section-page section-requestpricelist d-none">
+    <div id="containerRequestPricelist" class="container bg-white px-lg-5 py-3 py-lg-5" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="carousel-text-pricelist">
+                    <h5 class="title-request-pricelist f-36">.</h5>
+                </div>
             </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-12 mt-3 mt-lg-0">
+                <form action="#" id="form-home-request" name="requestBrochure" class="form-all php-email-form">
+                    
+                </form>
+
+            </div>
+        </div>
+
+    </div>
 </section>
 <?php // echo $contents; ?>
