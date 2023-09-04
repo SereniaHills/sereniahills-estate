@@ -87,7 +87,7 @@ if (isset($post_data)) {
                                                 class="btn second-button b-white c-white text-uppercase py-2 rounded-0 w-100">Detail</button>
                                         </a>
                                         <button class="btn main-button text-uppercase py-2 rounded-0 w-100" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal'.$key.'">GET QUOTE</button>
+                                            data-bs-target="#exampleModal'.$key.'">Request Pricelist</button>
 
                                     </div>
                                 </div>
