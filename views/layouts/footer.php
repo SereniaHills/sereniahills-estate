@@ -16,7 +16,7 @@
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-6 footer-links">
-                    <ul>
+                    <ul class="d-none">
                         <li>
                             <i class="bx bx-chevron-right"></i>
                             <a href="index.html" style="text-transform: uppercase;">Home</a>
