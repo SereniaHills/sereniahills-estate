@@ -157,7 +157,7 @@ if (isset($post_data)) {
 <section class="bg-map p-0 position-relative">
     <div class="container">
         <div class="row mt-4">
-            <div class="col-lg-12" style="text-transform: uppercase;">
+            <div class="col-lg-12">
                 <h1 class="text-white titlecontent f-80 l-spacing-1">
                     Location
                 </h1>
@@ -207,7 +207,7 @@ if (isset($post_data)) {
 <?php 
     $latest_types = latest_types_homepage()['latest_types'];
 ?>
-<section class="mb-4">
+<section class="mb-5">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12">
